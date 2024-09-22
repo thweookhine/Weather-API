@@ -18,20 +18,20 @@ git clone https://github.com/thweookhine/Weather-API.git
 cd Weather-API
 ```
 
-###2. Install Packages
+### 2. Install Packages
 
 ```
 npm install
 ```
 
-###3. Set up Environment variables
+### 3. Set up Environment variables
 
 ```
 touch .env
-refer env_sample for environment variables
+Note: refer env_sample for environment variables
 ```
 
-###4. Run Application
+### 4. Run Application
 
 ```
 npm start
@@ -39,13 +39,13 @@ npm start
 
 ## Usage
 
-###1. With curl
+### With curl
 
 ```
 curl "http://127.0.0.1:3000?city=Yangon"
 ```
 
-###1. With Postman
+### With Postman
 
 ```
 call "http://127.0.0.1:3000?city=Yangon" with get method
